@@ -1,0 +1,132 @@
+body{
+	width: 800px;
+    margin: 0 auto;
+}
+
+.Main_Page{
+}
+
+.Upper_Header{
+	background-color: rgb(95,125,198);
+    height: 68px;
+}
+
+.Upper_Header h1{
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 33px;
+	font-weight: 400;
+    padding: 11px;
+    margin: auto;
+}
+
+.Header_Logo{
+	float: right;
+}
+
+.Header_Logo img{
+	width: 285px;
+}
+
+.Left_Sidebar{
+    height: 324px;
+    background-color: rgb(245,245,245);
+    float: left;
+    width: 100px;
+}
+
+.Left_Sidebar a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0,0,0);
+}
+/*hos hover e bedke ella inchu chllargor*/
+.Left_Sidebar a:hover{
+	  color: rgb(95,125,198);;
+}
+
+.Left_Middle{
+	height: 167px;
+    width: 350px;
+    float: left;
+    background-color: rgb(169,169,169);
+}
+
+.Left_Middle b{
+	display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 26px;
+}
+
+.Left_Middle ol{
+	padding: 0px;
+    display: flex;
+    text-align: center;
+    list-style-position: inside;
+    font-family: cursive;
+    color: white;
+    font-size: 16px;
+}
+
+.Right_Middle{
+	width: 350px;
+    height: 167px;
+    float: left;
+    background: rgb(169,169,169);
+}
+
+.Right_Middle table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+.Right_Middle tr,td,th{
+    font-family: fantasy;
+    text-align: center;
+}
+
+.Right_Middle td,th{
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.Right_Middle tr:nth-child(even){
+    background-color: rgb(245,245,245);
+}
+
+.Right_Middle tr:nth-child(odd){
+    background-color: rgb(95,125,198);
+}
+
+.Bottom{
+    max-width: 700px;
+    height: 157px;
+    background-color: rgb(169,169,169);
+    float: right;
+}
+
+.Bottom h2{
+    margin: 0px;;
+    padding: 4px 0px 0px 18px;
+    font-family: sans-serif;
+}
+
+.Bottom hr{
+    margin: 0px;
+    border: 1px solid black;
+}
+
+.Bottom p{
+    margin: 17px 0px 0px 19px;
+    font-size: 17px;
+    font-style: italic;
+}
